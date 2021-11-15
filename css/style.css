@@ -1,0 +1,1077 @@
+@font-face {
+  font-family: 'robotoregular';
+  src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+       url('../fonts/roboto-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotobold';
+  src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+       url('../fonts/roboto-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotomedium';
+  src: url('../fonts/roboto-medium-webfont.woff2') format('woff2'),
+       url('../fonts/roboto-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* Global Alert */
+
+.global-alert.blue {
+    background-color: #0b5197;
+}
+
+
+.global-alert.blue .global-alert__title, .icon-bang--white {
+     margin-bottom: 40px;
+    margin-right: 20px;
+    padding-left: 40px;
+    font-size: 20px;
+    text-align: left;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.alert-icon {
+	height: 28px;
+    width: 28px;
+    background: url(../img/alert-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+	}
+
+.alert-row {
+   padding:10px;
+   font-family: 'robotobold';
+   color: #fff;
+   text-align:center;
+   font-size: 14px;
+   padding-top: 50px;
+}
+
+a.alert-call {
+	color: #fff;
+	font-weight:bold;
+	}
+
+
+p.alert-text {
+    margin: 20px 15px 20px 20px;
+    /* margin-right: 20px; */
+    text-align: left;
+    font-weight: normal;
+    font-family: 'robotoregular';
+	font-size: 18px;
+}
+
+/* end Global Alert */
+
+
+
+/* index iOS */
+.header-section {
+   background-color:#E7F7F7;
+   position: relative;
+   overflow: hidden;
+}
+.header-section:before {
+  content: '';
+  border-radius: 0 0 50% 50%;
+  background: linear-gradient(180deg, #008081 0%, #A1D0D5 100%);
+  width: 130%;
+  height: 206px;
+  position: absolute;
+  left: -15%;
+}
+
+.header-signin-row-container {
+  display: flex;
+  justify-content: center;
+}
+
+.header-signin-row {
+   padding:10px;
+   font-family: 'robotobold';
+   color: #fff;
+   height:206px;
+   text-align:center;
+   font-size: 14px;
+   padding-top: 30px;
+  max-width: 400px;
+   /* padding-top: 50px; */
+}
+
+.sutter-health-logo {
+   background-repeat:no-repeat;
+   background-size: 100%;
+   height:52px;
+   width:192px;
+   margin: auto;
+   position: relative;
+   left: -8px;
+   /* margin-left: 40px; */
+  }
+  /* @media (max-width: 375px) {
+    .sutter-health-logo {
+      margin-left:30px;
+    }
+  } */
+
+  
+  .mho-logo {
+   background-image: url("../img/MHO-APP.png");
+   background-repeat:no-repeat;
+   background-size: 100%;
+   height:39px;
+   width:55px;
+   margin: 0 auto;
+   margin-bottom:12px;
+   margin-top:10px;
+  }
+  
+  .subtext {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 24px;
+    padding: 0;
+  }
+  .subtext li {
+    font-size: 12px;
+    font-family: 'robotomedium';
+    line-height: 1;
+    color: #fff;
+  }
+  .subtext li:after {
+    content: '\2022';
+    padding: 0 6px;
+  }
+  .subtext li:last-child:after {
+    content: none;
+  }
+
+  .enroll {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'robotobold';
+    font-size: 14px;
+    text-decoration: underline;
+    margin-top: 20px;
+    display: block;
+    letter-spacing: 0.29px;
+  }
+
+div.icon-arrow-white:before {
+   content: "";
+   display: block;
+   background: url("../img/arrow-white copy@1x.png");
+   background-repeat:no-repeat;
+   width: 20px;
+   height: 18px;
+   float: left;
+   margin-left:100px;
+}
+
+.sign-in-text {  
+  font-size:14px;
+  line-height:19px;
+  color:#fff;
+  font-family: 'robotobold';
+  text-align: center;
+  text-transform: uppercase;
+}
+  
+  .sign-in-button {
+  background: #006666 none repeat scroll 0 0;
+  border-radius: 2px;
+  text-decoration: none;
+  width: 300px;
+  height: 40px;
+  text-align:left;
+  margin: 0 auto;
+  margin-top:24px;
+  padding: 10px 16px 0;
+}
+
+
+    section.contact-hmo-support-section.find-doctor-clinic {
+    border-bottom: 1px solid #D9D9D9;
+}
+
+  .doctor-clinic-row {
+    background-color: #E7F7F7;
+   padding:8px 16px;
+   height:128px;
+   display: flex;
+   justify-content: center;
+  }
+  
+  .doctor-col {
+   border-right: 1px solid #D9D9D9;
+   padding:0px;
+   margin-top:10px;
+   width: 200px;
+  }
+  @media (max-width: 500px) {
+    .doctor-col {
+      width: 150px;
+    }
+  }
+  
+  .doctor-logo, .location-icon {
+   height:30px;
+   width:30px;
+   float:right;
+   margin-top:-40px;
+  }
+  .doctor-logo:before {
+    content: '\edb0';
+    color: #008080;
+    font-family: 'icomoon';
+    font-size: 28px;
+  }
+  .location-icon:before {
+    content: '\eda9';
+    color: #008080;
+    font-family: 'icomoon';
+    font-size: 28px;
+  }
+  
+  .find-doctor-text {  
+  font-size: 14px;
+  line-height: 16px;
+  color: #4A4A4A;
+  font-family: 'robotobold';
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.centered-action {
+  font-family: 'robotomedium';
+  font-size: 16px;
+  color: rgba(0,128,128,0.86);
+  text-align: center;
+  display: block;
+  margin-bottom: 18px;
+}
+
+
+ .walk-in-logo,.urgent-care-logo {
+  background-color: #fff;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.16);
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom:12px;
+  position: relative;
+ }
+ .walk-in-logo:before {
+   content: '\edd8';
+   font-family: 'icomoon';
+   font-size: 40px;
+   color: #008080;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 1;
+ }
+
+ .urgent-care-logo:before {
+  content: '\edd6';
+  font-family: 'icomoon';
+  font-size: 40px;
+  color: #008080;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ z-index: 1;
+}
+
+.clinic-logo {
+  background-image: url("../img/clinic@1x.png");
+  background-repeat:no-repeat;
+  height:61px;
+  width:64px;
+  margin: 0 auto;
+  margin-bottom:12px;
+ }
+  
+  .clinic-col {
+   padding:0px;
+   margin-top:10px;
+   width: 200px;
+  }
+  @media (max-width: 500px) {
+    .clinic-col {
+      width: 150px;
+    }
+  }
+  
+  .clinic-logo {
+   background-image: url("../img/clinic@1x.png");
+   background-repeat:no-repeat;
+   height:61px;
+   width:64px;
+   margin: 0 auto;
+   margin-bottom:12px;
+  }
+  
+  .contact-hmo-support-section {
+    border-bottom: 1px solid #E0E8E8;
+  }
+  
+  .contact-hmo-support-row {
+   height:58px;
+   margin: 0 auto;
+  }
+
+.icon-phone-contact-mho-support {
+   height:28px;
+   width:28px;
+   float:right;
+   margin-top:-40px;
+}
+.icon-phone-contact-mho-support:before {
+  content: '\edc9';
+  color: #008080;
+  font-family: 'icomoon';
+  font-size: 26px;
+}
+
+.icon-paybill-mho {
+   height:30px;
+   width:30px;
+   float:right;
+   margin-top:-40px;
+}
+.icon-paybill-mho:before {
+  content: '\edac';
+  color: #008080;
+  font-family: 'icomoon';
+  font-size: 28px;
+}
+
+.icon-phone-contact-mho {
+   background: url("../img/2021/phone.svg");
+   background-repeat:no-repeat;
+   height:41px;
+   width:40px;
+   float:right;
+   margin-top:-50px;
+}
+
+.icon-faq {
+  height:30px;
+  width:30px;
+  float:right;
+  margin-top:-40px;
+}
+.icon-faq:before {
+  content: '\edb6';
+  color: #008080;
+  font-family: 'icomoon';
+  font-size: 28px;
+}
+
+.contact-hmo-support-section .container  {
+  width: 100%;
+}
+
+.find-a-doctor, .pay-a-bill-row, .contact-hmo-support-row {
+  max-width: 255px;
+  margin: auto;
+}
+@media (max-width: 1023px) {
+  .find-a-doctor, .pay-a-bill-row, .contact-hmo-support-row {
+    max-width: 185px;
+  }
+}
+@media (max-width: 500px) {
+  .find-a-doctor, .pay-a-bill-row, .contact-hmo-support-row {
+    max-width: 275px;
+  }
+}
+.transparent-triangle-topleft {
+    height: 0;
+    border-top: 40px solid transparent;
+    border-right: 8px solid transparent;
+    float: left;
+    margin-top:0px;
+}
+@media (max-width: 500px) {
+  .transparent-triangle-topleft {
+    margin-left:20px;
+  }
+}
+
+div.icon-arrow-green:before {
+    content: "";
+    display: block;
+    background: url("../img/Arrow-green@1x.png");
+    background-repeat:no-repeat;
+    width: 20px;
+    height: 18px;
+    float: left;
+    margin-left:0px;
+    margin-top:20px;
+}
+
+  
+.contact-hmo-support-row {
+   height:40px;
+   width: 100%;
+   margin: 0 auto;
+  }
+  
+.contact-hmo-support-text {  
+  font-size:14px;
+  line-height:18px;
+  color:#444444;
+  font-family: 'robotomedium';
+  padding-top:12px;
+}
+
+.get-to-know-section {
+  background: #00AAA9;
+}
+
+.get-to-know-section .container {
+  width: 100%;
+}
+
+.get-to-know-sutter-row {
+   height:61px;
+   width: 100%;
+   margin: 0 auto;
+   background-color: #fff;
+  }
+  
+
+.teal-triangle-topleft {
+    height: 0;
+    background: #039392;
+    margin-left:0px;
+    margin-top:0px;
+    height: 60px;
+    width: calc(50% - 70px);
+    position: relative;
+}
+.teal-triangle-topleft:after {
+  content: '';
+  border-top: 64px solid transparent;
+  border-right: 37px solid #fff;
+  position: absolute;
+  top: -2px;
+  right: -2px;
+}
+
+.caregiver-icon {
+  height:30px;
+  width:30px;
+  float:right;
+  margin-top:-40px;
+  }
+.caregiver-icon:before {
+  content: '\eda8';
+  color: #008080;
+  font-family: 'icomoon';
+  font-size: 28px;
+}
+
+div.get-to-know-icon-arrow-white:before {
+    content: "";
+    display: block;
+    background: url("../img/arrow-white copy@1x.png");
+    background-repeat:no-repeat;
+    width: 20px;
+    height: 18px;
+    float: left;
+    margin-left:0px;
+    margin-top:20px;
+	  margin-bottom: 20px;
+}
+
+.get-to-know-sutter-text {  
+  font-size:16px;
+  line-height:18px;
+  color:rgba(0,128,128,0.86);
+  font-family: 'robotomedium';
+  padding-top:20px;
+  padding-left: 136px;
+  position: relative;
+  z-index: 2;
+}
+
+.container-expand {
+  margin-right:0px;
+}
+
+
+
+/* Contact Us iOS */
+.signin-header {
+   background-color:#00AAA9;
+   padding:10px;
+   font-family: 'robotobold';
+   color: #fff;
+   width:100%;
+   /* height:285px; */
+   text-align:center;
+   font-size: 16px;
+}
+
+
+.sutter-health-logo {
+   background-image: url("../img/mho-logo.svg");
+   background-repeat:no-repeat;
+   background-size: 100%;
+   height:48px;
+   width:193px;
+  }
+ 
+  
+.contact-us-logo {
+   background-image: url("../img/ZCONTACT-US-ICON.png");
+   background-repeat:no-repeat;
+   height:64px;
+   width:64px;
+   margin: 0 auto;
+   margin-top:40px;
+   margin-bottom:18px;
+  }
+  
+.contact-us-top-row {
+  height:200px;
+}
+
+.speak-chat-support-section {
+   padding-left:5%;
+   padding-right:5%;
+  }
+  
+.clinic-hospital-support-section {
+    padding-bottom:15px;
+  }
+  
+.speak-chat-row-android {
+  border-bottom: 2px solid #D9D9D9;
+  }
+  
+.speak-with-mho-col {
+   border-right: 1px solid #D9D9D9;
+   border-bottom: 2px solid #D9D9D9;
+   padding:0px;
+   height:130px;
+   float:left;
+   margin-top:20px;
+  }
+  
+
+ .icon-phone-contact-mho-android:before {
+    content: "";
+    display: block;
+    background: url("../img/contact-phone@1x.png");
+    background-repeat:no-repeat;
+    width: 36px;
+    height: 45px;
+    float: left;
+    margin-left:0px;
+    margin-top:15px;
+    margin-right:10px;
+  }
+  
+.icon-phone-contact-mho {
+   background-image: url("../img/contact-phone@1x.png");
+   background-repeat:no-repeat;
+   background-position: center;
+   height:36px;
+   margin: 0 auto;
+   width:100%;
+   margin-bottom:10px;
+   margin-top:10px;
+   text-align:center;
+  }
+  
+  .chat-with-mho-col {
+   border-bottom: 2px solid #D9D9D9;
+   padding:0px;
+   height:130px;
+   float:left;
+   margin-top:20px;
+  }
+  
+ .icon-chat-mho {
+   background-image: url("../img/chat@1x.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   height:33px;
+   width:100%;
+   margin: 0 auto;
+   margin-top:10px;
+   margin-bottom:15px;
+   text-align:center;
+  }
+ 
+  
+.speak-with-mho-text {  
+  font-size:16px;
+  line-height:18px;
+  color:#006663;
+  font-family: 'robotoregular';
+  text-align:center;
+  margin-bottom:20px;
+}
+
+
+.speak-with-mho-text-android {  
+  font-size:16px;
+  line-height:18px;
+  color:#006663;
+  font-family: 'robotoregular';
+  text-align:left;
+  margin-bottom:20px;
+}
+
+
+.speak-with-mho-android-col {
+   padding: 0px;
+   float: left;
+   margin-top: 20px;
+   width: 180px
+  }
+
+
+
+
+
+/* Clinic Billing */
+
+.clinic-hospital-billing-row {
+   margin-top:0px;
+  }
+
+.clinic-hospital-billing-row-android {
+   margin-top:13px;
+  }
+
+.clinic-hospital-billing-col {
+   border-right: 1px solid #D9D9D9;
+   padding:0px;
+   height:130px;
+   float:left;
+   margin-top:0px;
+  }
+  
+.icon-clinic-billing {
+   background-image: url("../img/Group 14.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   height:33px;
+   width:100%;
+   margin: 0 auto;
+   margin-top:30px;
+   margin-bottom:10px;
+   text-align:center;
+  }
+  
+.icon-hospital-billing {
+   background-image: url("../img/Group 26.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   height:43px;
+   width:100%;
+   margin: 0 auto;
+   margin-top:10px;
+   margin-bottom:10px;
+   text-align:center;
+  }
+  
+  
+.navbar-header {
+padding:15px;
+   font-family: 'robotobold';
+   color: #fff;
+   width:100%;
+}
+
+
+.back-button {
+  background-image: url("../img/back-arrow@1x.png");
+  height:39px;
+  width:39px;
+  float:left;
+  margin-top:5px;
+  margin-left:18px;
+  }
+  
+.clinic-billing-questions {
+  font-size:16px;
+  text-align:center;
+  line-height:40px;
+  }
+.clinic-billing-intro {
+  margin-top:15px;
+  line-height:18px;
+  font-size:14px;
+  color:#353535;
+  font-family: 'robotoregular';
+  }
+  
+.LocationList {
+   margin:0;
+   padding:0;
+ }
+
+ul.location-list {
+   padding:0px;
+ }
+ 
+.location-list li {
+   list-style-type:none;
+   border-top: 1px solid #D9D9D9;
+   border-bottom: none;
+   padding-top:12px;
+   padding-bottom:12px;
+ }
+ 
+.location-list li:last-child { 
+    border-bottom: 1px solid #D9D9D9;
+    }
+ 
+.clinic-row {
+   border-top: 1px solid #D9D9D9;
+   padding-top:12px;
+   padding-bottom:12px;
+ }
+    
+div.icon-phone:before {
+    content: "";
+    display: block;
+    background: url("../img/phone.png");
+    background-repeat:no-repeat;
+    width: 25px;
+    height: 21px;
+    float: left;
+}
+
+.clinic-phone {  
+  font-size:18px;
+  line-height:22px;
+  color: #006663;
+}
+.clinic-location {  
+  font-size:16px;
+  line-height:18px;
+  margin-left:25px;
+  color: #353535;
+  font-family: 'robotoregular';
+}
+
+.copyright-section {
+background-color: #F2F2F2;
+}
+.copyright-row {
+   height:auto;
+   margin: 0 auto;
+}
+.copyright {
+font-family: 'robotoregular';
+font-size: 10px;
+line-height: 12px;
+color: #353535;
+text-align:center;
+margin-top:40px;
+}
+
+ @media only screen and (orientation: landscape) {
+  .transparent-triangle-topleft, .teal-triangle-topleft {
+    width: calc(50% - 35px);
+  }
+ }
+
+
+
+
+@media 
+(-webkit-min-device-pixel-ratio: 1)
+{
+  .back-button {
+    background-image: url("../img/back-arrow@1x.png");
+  }
+  .sutter-health-logo {
+    background-image: url("../img/mho-logo.svg");
+  }
+
+  .clinic-logo {
+    background-image: url("../img/clinic@1x.png");
+  }
+  .mho-logo {
+    background-image: url("../img/MHO-APP.png");
+  }
+  .icon-phone-contact-mho {
+    background-image: url("../img/contact-phone@1x.png");
+  }
+  .icon-phone-contact-mho-android:before {
+    background-image: url("../img/contact-phone@1x.png");
+    background-repeat: no-repeat;
+  }
+  .contact-us-logo {
+   background-image: url("../img/ZCONTACT-US-ICON.png");
+  }
+  
+  .icon-chat-mho {
+   background-image: url("../img/chat@1x.png");
+  }
+  
+  .icon-clinic-billing {
+   background-image: url("../img/Group 14.png");
+  }
+  
+  .icon-hospital-billing {
+   background-image: url("../img/Group 26.png");
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)
+{
+  .back-button {
+    background-image: url("../img/back-arrow@2x.png");
+    background-size:contain;
+  }
+
+
+  .mho-logo {
+    background-image: url("../img/MHO-APP@2x.png");
+    background-size:contain;
+  }
+
+  .icon-phone-contact-mho {
+    background-image: url("../img/contact-phone@2x.png");
+    background-size:contain;
+  }
+
+  .icon-phone-contact-mho-android:before {
+    background-image: url("../img/contact-phone@2x.png");
+    background-size:contain;
+  }
+
+  .clinic-logo {
+    background-image: url("../img/clinic@2x.png");
+    background-size:contain;
+  }
+
+  
+  .contact-us-logo {
+   background-image: url("../img/ZCONTACT-US-ICON@2x.png");
+   background-size:contain;
+  }
+  
+  .icon-chat-mho {
+   background-image: url("../img/chat@2x.png");
+   background-size:contain;
+  }
+  
+  .icon-clinic-billing {
+   background-image: url("../img/Group 14@2x.png");
+   background-size:contain;
+  }
+  
+  .icon-hospital-billing {
+   background-image: url("../img/Group 26@2x.png");
+   background-size:contain;
+  }
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 3){
+  .back-button {
+    background-image: url("../img/back-arrow@3x.png");
+    background-size:contain;
+  }
+  .clinic-logo {
+    background-image: url("../img/clinic@3x.png");
+    background-size:contain;
+  }
+  .mho-logo {
+    background-image: url("../img/MHO-APP@3x.png");
+    background-size:contain;
+  }
+
+  .clinic-logo {
+    background-image: url("../img/clinic@3x.png");
+    background-size:contain;
+  }
+
+  .icon-phone-contact-mho {
+    background-image: url("../img/contact-phone@3x.png");
+    background-size:contain;
+  }
+  .icon-phone-contact-mho-android:before {
+    background-image: url("../img/contact-phone@3x.png");
+    background-size:contain;
+  }
+
+  .contact-us-logo {
+   background-image: url("../img/ZCONTACT-US-ICON@3x.png");
+   background-size:contain;
+  }
+  
+  .icon-chat-mho {
+   background-image: url("../img/chat@3x.png");
+   background-size:contain;
+  }
+  
+  .icon-clinic-billing {
+   background-image: url("../img/Group 14@3x.png");
+   background-size:contain;
+  }
+  
+  .icon-hospital-billing {
+   background-image: url("../img/Group 26@3x.png");
+   background-size:contain;
+  }
+}
+
+@media screen and (max-width: 320px) {
+    .global-alert.blue .global-alert__title, .icon-bang--white {
+     margin-bottom: 60px;
+    margin-right: 20px;
+    padding-left: 40px;
+    font-size: 20px;
+    text-align: left;
+    width: 280px;
+    margin-left: 20px;
+	}
+}
+
+/* Global Alert Styles */
+.has-alert {
+  padding-top: 46px;
+}
+@media (max-width: 500px) {
+  .has-alert {
+    padding-top: 66px;
+  }
+}
+
+.header-alert {
+	background-color: #236192;
+  padding: 11px 16px 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+}
+.header-alert-header {
+  font-family: 'robotoregular';
+  font-size: 15px;
+  color: #fff !important;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+.header-alert-header a {
+  color: #fff;
+  text-decoration: underline;
+  position: relative;
+}
+.header-alert-header a:after {
+  content: '';
+  background: url('../img/arrow-white@2x.png') no-repeat center/100%;
+  display: inline-block;
+  height: 8px;
+  width: 10px;
+}
+@media (max-width: 375px) {
+  .header-alert-header a:after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -10px;
+  }
+}
+.header-alert-header:hover, .header-alert-header:focus {
+  text-decoration: none;
+}
+@media (max-width: 400px) {
+  .header-alert-header {
+    justify-content: space-between;
+  }
+  .header-alert-header:before {
+    bottom: -2px;
+  }
+}
+.header-alert-header strong {
+  font-family: 'robotobold';
+}
+.header-alert-header:before {
+  content: '';
+  background: url('../img/alert-circle.svg') no-repeat center/22px;
+  height: 24px;
+  width: 40px;
+  margin-right: 8px;
+  display: block;
+  position: relative;
+}
+.header-alert-link, .header-alert-link:visited, .header-alert-link:active, .header-alert-link:focus {
+  font-family: 'robotobold';
+  font-size: 14px;
+  float: right;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 1.75;
+}
+
+/* Featured Video Modal */
+.visuallyhidden {
+  opacity: 0;
+}
+@media (max-width: 400px) {
+  .modal-dialog-centered {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%) !important;
+    width: calc(100% - 21px);
+  }
+}
+.modal-content {
+  border: none;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+.modal-content iframe {
+  border: none;
+}
+.modal-content .close {
+  font-weight: 400;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  color: #fff;
+  background-color: #008080;
+  border-radius: 50%;
+  padding: 5px 10px;
+  z-index: 1;
+  opacity: 1;
+  text-shadow: none;
+}
+.vjs-share-control, .vjs-picture-in-picture-control {
+  display: none !important;
+}
