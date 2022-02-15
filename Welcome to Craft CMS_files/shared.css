@@ -1,0 +1,34 @@
+/* Avoid use of this file as possible. */
+
+body {
+  background-color: var(--neutral-grayLight);
+  margin: 0;
+  padding: 0
+}
+
+.main-content {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  max-width: 568px
+}
+
+/*
+ * Adding 16px gutter on each side
+ * to the 568px max width to get 536px.
+ */
+
+@media (min-width: 600px) {
+  .main-content {
+    margin-left: auto;
+    margin-right: auto
+  }
+}
+
+.vertical-card-group {
+  margin-bottom: 2rem;
+  margin-top: 1.5rem;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem
+}

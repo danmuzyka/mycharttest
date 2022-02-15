@@ -1,0 +1,144 @@
+@import url('http://fonts.cdnfonts.com/css/montserrat');
+@import url('http://fonts.cdnfonts.com/css/hind');
+
+:root {
+  /* Brand specific primary colors. */
+  --brand-blueLight: #0096d6;
+  --brand-blueLight-50: #80cbeb;
+  --brand-blueLight-20: #cceaf7;
+  --brand-blueLight-10: #edf8fc;
+  --brand-blue: #13477d;
+  --brand-blue-50: #89a3be;
+  --brand-blue-20: #d0dae5;
+  --brand-blueDark: #002d5d;
+  --brand-gold: #f0ad00;
+  --brand-gold-50: #f8d680;
+  --brand-gold-20: #030303;
+  --brand-greenSlate: #537d88;
+  --brand-greenSlate-50: #acbdc2;
+  --brand-greenSlate-20: #dee5e7;
+  --brand-emerald: #006646;
+  --brand-emerald-50: #8ab1a3;
+  --brand-emerald-20: #d0e0da;
+  --brand-orange: #f38f1d;
+  --brand-orange-50: #f2c896;
+  --brand-orange-20: #f9e9d4;
+  --brand-orangeDark: #ae6109;
+  --brand-sherbert: #f78fa7;
+  --brand-coralDark: #d92f1c;
+  --brand-greenDark: #4a7a2a;
+  --brand-greenDarker: #31511c;
+  --brand-purpleDark: #a0549a;
+  --brand-tealDark: #1c7e87;
+  --brand-magentaDark: #d91c6b;
+
+  /* Brand specific neutral colors & Generic tones/ */
+  --neutral-transparent: transparent;
+  --neutral-white: #fff;
+  --neutral-grayLightest: #f3f3f3;
+  --neutral-grayLight: #eeeeee;
+  --neutral-grayMedium: #d9d8d6;
+  --neutral-grayDark: #595959;
+  --neutral-black: #101820;
+
+  /* Ochsner digital colors. */
+  --ui-accent: #007eaa;
+  --ui-error: #aa182c;
+  --ui-warning: #f0ad00;
+  --ui-success: #6cb33e;
+
+  /* Utitlizing CSS properties here (screens) caused
+     the responsive tailwind classes to simply fail.
+     @todo: Make screens work with css variables. */
+  /* --screen-xs: 480px;
+  --screen-sm: 640px;
+  --screen-md: 768px;
+  --screen-lg: 1024px;
+  --screen-xl: 1280px;
+  --screen-xxl: 1440px;
+  --screen-xxxl: 2180px; */
+
+  --spacing-0: 0px;
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-5: 1.25rem;
+  --spacing-6: 1.5rem;
+  --spacing-7: 1.75rem;
+  --spacing-8: 2rem;
+  --spacing-9: 2.25rem;
+  --spacing-10: 2.5rem;
+  --spacing-11: 2.75rem;
+  --spacing-12: 3rem;
+  --spacing-14: 3.5rem;
+  --spacing-16: 4rem;
+  --spacing-18: 4.5rem;
+  --spacing-20: 5rem;
+  --spacing-24: 6rem;
+  --spacing-28: 7rem;
+  --spacing-32: 8rem;
+  --spacing-36: 9rem;
+  --spacing-40: 10rem;
+  --spacing-44: 11rem;
+  --spacing-48: 12rem;
+  --spacing-52: 13rem;
+  --spacing-56: 14rem;
+  --spacing-60: 15rem;
+  --spacing-64: 16rem;
+  --spacing-72: 18rem;
+  --spacing-80: 20rem;
+  --spacing-96: 24rem;
+  --spacing-px: 1px;
+
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.25rem;
+  --fs-2xl: 1.5rem;
+  --fs-3xl: 1.875rem;
+  --fs-4xl: 2.25rem;
+  --fs-5xl: 3.5rem;
+  --fs-6xl: 4.5rem;
+  --fs-7xl: 5.5rem;
+  --fs-8xl: 6.5rem;
+  --fs-9xl: 7.5rem;
+
+  --lh-xs: 1rem;
+  --lh-sm: 1.25rem;
+  --lh-base: 1.5rem;
+  --lh-lg: 1.75rem;
+  --lh-xl: 1.75rem;
+  --lh-2xl: 2rem;
+  --lh-3xl: 2.25rem;
+  --lh-4xl: 2.5rem;
+  --lh-5xl: 3.75rem;
+  --lh-6xl: 4.75rem;
+  --lh-7xl: 5.75rem;
+  --lh-8xl: 6.75rem;
+  --lh-9xl: 7.75rem;
+
+  --fw-thin: 100;
+  --fw-extralight: 200;
+  --fw-light: 300;
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extrabold: 800;
+  --fw-black: 900;
+
+  /*
+   * Configuration values for `outline-container`.
+   */
+  --outline-container-padding-x: 1.5rem;
+  --outline-container-padding-y: 1.5rem;
+
+  /*
+   * Configuration values for `outline-link`.
+   */
+  --outline-link-color-default: var(--demo-darkBlue);
+  --outline-link-color-hover: var(--demo-darkGray);
+  --outline-link-color-focus: var(--demo-darkGray);
+}
